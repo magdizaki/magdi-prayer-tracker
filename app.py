@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 
 # إعدادات الصفحة
-st.set_page_config(page_title="تتبع صلوات المغدي والقضاء", layout="wide")
+st.set_page_config(page_title="تتبع صلوات والقضاء", layout="wide")
 
 # 1. تهيئة البيانات وتخزينها في ذاكرة الجلسة (Session State) حتى لا تضيع عند التحديث
 if 'years_missed' not in st.session_state:
