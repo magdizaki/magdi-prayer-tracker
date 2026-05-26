@@ -6,7 +6,7 @@ import datetime
 st.set_page_config(page_title="تتبع صلوات القضاء والفوائت الذكي", layout="wide")
 
 # كود لربط ملف التثبيت بالهاتف
-st.markdown('<link rel="manifest" href="./manifest.json">', unsafe_value=true)
+st.markdown('<link rel="manifest" href="./manifest.json">', unsafe_value=True)
 
 # --- 1. إدارة جلسة المستخدم (بيانات مستقلة لكل زائر) ---
 if 'user_name' not in st.session_state:
